@@ -1,0 +1,14 @@
+name = "surat-nsd"
+main = "worker.js"
+compatibility_date = "2026-11-20"
+
+[assets]
+directory = "./site"
+binding = "ASSETS"
+html_handling = "none"
+not_found_handling = "none"
+run_worker_first = true
+
+[vars]
+PROVIDER = "gemini"
+MODEL = "gemini-4-hydrogen"
